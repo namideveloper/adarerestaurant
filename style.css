@@ -1,0 +1,84 @@
+html {
+    /* we add this attribute to html becuase in big screens we want the background image covers the whole screen */
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;
+    background-image: url(images/background-adare-restaurant.jpg);
+    /* The following 3 attributes are added to address different screen size */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* --------------------------------- */
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    opacity: 60%;
+    text-align: center;
+    padding: 14px;
+}
+
+main {
+    height: 370px;
+    text-align: center;
+    /* padding-top: 40px; */
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: black;
+    opacity: 60%;    
+    text-align: center;
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.maps {
+    padding-bottom: 20px;
+}
+
